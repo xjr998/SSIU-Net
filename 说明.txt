@@ -1,0 +1,11 @@
+1. 训练：train_manual.py
+测试：test_manual.py或test_manual_VPCC.py
+2. 网络框架：model_new.py
+3. 由于对每个码率单独训练，训练时请在main函数第一行bits = 'R01_'修改码率点，
+测试时请在第20行左右c = '1'修改码率点。
+4. 训练时，需要重点注意的输入参数：'--pth_path'模型的输出位置，'--log_path'日志文件位置，
+'--resume'是否读取checkpoint，'--data_path'训练集位置（将txt文件与h5文件放在同一文件夹，
+txt文件的每一行是每个h5文件的全称，如loot_vox10_1200_r01.h5），'--validData_path'验证集位置。
+5. 测试时，需要重点注意的输入参数：'--log_path'日志文件位置，'--data_path'记录原始点云的txt文件位置，
+'--pretrain_Y'为Y分量模型位置，'--pretrain_U'为U分量模型位置，'--pretrain_V'为V分量模型位置，
+'--ori_path'为原始点云(ply文件)存放位置，'--rec_path'为重建点云存放位置，'--pred_path'为质量增强点云输出位置。

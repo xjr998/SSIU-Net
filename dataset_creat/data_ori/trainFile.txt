@@ -1,0 +1,13 @@
+coffee_cup.ply
+honeydew_melon.ply
+pear.ply
+ping-pong_bat.ply
+ship.ply
+sweet_potato.ply
+basketball_player_vox11_00000200.ply
+exercise_vox11_00000040.ply
+longdress_vox10_1300.ply
+model_vox11_00000035.ply
+queen_0200.ply
+soldier_vox10_0690.ply
+
